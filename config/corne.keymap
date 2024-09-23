@@ -55,10 +55,10 @@
 
         Game {
             bindings = <
-&none             &kp ESCAPE      &kp Q  &kp W  &kp E         &kp R        &none   &none   &none   &none  &none  &none
-&none             &kp TAB         &kp A  &kp S  &kp D         &kp F        &none   &none   &none   &none  &none  &none
+&kp NUMBER_4      &kp ESCAPE      &kp Q  &kp W  &kp E         &kp R        &none   &none   &none   &none  &none  &none
+&kp N5            &kp TAB         &kp A  &kp S  &kp D         &kp F        &none   &none   &none   &none  &none  &none
 &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V        &none   &none   &none   &none  &none  &none
-                                         &kp M  &kp LEFT_ALT  &kp SPACE    &trans  &trans  &trans
+                                         &kp M  &kp NUMBER_3  &kp SPACE    &trans  &trans  &trans
             >;
         };
     };
