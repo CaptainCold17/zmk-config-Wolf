@@ -14,7 +14,12 @@
 
         Fkeys {
             bindings = <&tog 2>;
-            key-positions = <39 41>;
+            key-positions = <41 40>;
+        };
+
+        Arrows {
+            bindings = <&tog 3>;
+            key-positions = <40 41 39>;
         };
     };
 
@@ -45,6 +50,15 @@
 &trans  &kp F6  &kp F7  &kp F8  &kp F9   &kp F10    &trans      &trans        &trans        &trans        &trans  &trans
 &trans  &trans  &trans  &trans  &kp F11  &kp F12    &trans      &trans        &trans        &trans        &trans  &trans
                         &trans  &trans   &trans     &trans      &trans        &trans
+            >;
+        };
+
+        Arrows {
+            bindings = <
+&trans  &trans  &trans    &kp UP_ARROW  &trans     &trans    &trans  &trans          &kp UP_ARROW    &trans     &trans  &trans
+&trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans    &trans        &trans     &trans    &trans  &trans          &trans          &trans     &trans  &trans
+                          &trans        &trans     &trans    &trans  &trans          &trans
             >;
         };
     };
